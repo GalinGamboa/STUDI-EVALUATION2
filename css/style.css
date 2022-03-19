@@ -13,7 +13,7 @@
     background-image: linear-gradient(to top, rgba(209, 204, 140, 0.8) 0%,rgba(104, 156, 83, 0.8) 100%), url(../images/img/dés.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin:  auto;
+    margin:   10px auto;
     padding: 15px;
     justify-content: center;
     border: 5px solid rgb(117, 8, 190);
@@ -61,7 +61,7 @@ h4{
 .dice {
     position: fixed;
     width: 150px;
-    top:265px;
+    top:275px;
     left: calc(50% - 70px);
 }
 
@@ -141,12 +141,14 @@ button span {
 
 .joueur_gagnant{
     text-align: center;
+    margin-top: 30px;
     color: red;
-    margin-bottom: 40px;
+    
 }
  
 .joueur_gagnant1,
 .joueur_gagnant2 {
+    
     display: none;
 }
 
@@ -182,7 +184,7 @@ button span {
     .dice {
         position: fixed;
         width: 110px;
-        top:205px;
+        top:215px;
         left: calc(50% - 55px);
     }
 
@@ -233,6 +235,10 @@ button span {
         position: absolute;
         margin-top: -1px;
     }
+
+    .joueur_gagnant{
+        margin-top: 30px;
+    }
 }
 
 
@@ -265,7 +271,7 @@ button span {
     .dice {
         position: fixed;
         width: 75px;
-        top:200px;
+        top:210px;
         left: calc(50% - 38px);
     }
 
