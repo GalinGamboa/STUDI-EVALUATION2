@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Le jeu de dés</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1 class="title">Le jeu de dés</h1>
+        </div>
+        <div class="new_game" >
+            <button  id="new_game"   class="custom-btn btn-1"><img src="images/icons/plus.svg"alt=""><span>NEW GAME</span></button>
+        </div>
+        <div class="conatiner_players">
+            <div class=" container_player container_player1">
+                <div class="players">
+                    <h2 class="player1"> Joueur 1</h2>
+                </div>
+                <div class="poinst_global">
+                    <p class="points_glob points_glob1">0</p>
+                    <h4>Poinst Global</h4>
+                    <p class="points_temp points_temp1">0</p>
+                    <h4>Poins Temporal</h4>
+                    <div class=" container_buttons buttons_player1">
+                        <div class="roll_dice1" id="rool_dice1">
+                            <button class="custom-btn btn-1 roll_dice1"><img src="images/icons/change.svg"alt=""><span>ROOL DICE</span></button>
+                        </div>
+                        <div class="hold1" id="hold1">
+                            <button class="custom-btn btn-1 hold1"><img src="images/icons/save.svg"alt=""><span>HOLD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" container_player container_player2">
+                <div class="players">
+                    <h2 class="player2"> Joueur 2</h2>
+                </div>
+                <div class="poinst_blobal">
+                    <p class="points_glob points_glob2">0</p>
+                    <h4>Poinst Global</h4>
+                    <p class="points_temp points_temp2">0</p>
+                    <h4>Poins Temporal</h4>
+                    <div class="container_buttons buttons_player2">
+                        <div class="roll_dice1" id="rool_dice2">
+                            <button class="custom-btn btn-1 roll_dice2"><img src="images/icons/change.svg"alt=""><span>ROOL DICE</span></button>
+                        </div>
+                        <div class="hold2" id="hold2">
+                            <button class="custom-btn btn-1 hold2"><img src="images/icons/save.svg"alt=""><span>HOLD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gagnant">
+            <h1  id="joueur_gagnant1" class="joueur_gagnant joueur_gagnant1"> GAGNANT JOUEUR 1</h1>
+            <h1  id="joueur_gagnant2" class="joueur_gagnant joueur_gagnant2"> GAGNANT JOUEUR 2</h1>
+        </div>
+
+        <div class="container_dice">
+            <img src="/images/img/dé1.jpg" class="dice dice_1" alt="">
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="/js/main.js"></script>
+    
+</body>
+</html>
