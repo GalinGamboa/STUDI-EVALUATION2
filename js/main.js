@@ -20,6 +20,7 @@ let p_t_2 = 0;              // Valeur ======> points du round joueur2
 
 
 newGame.addEventListener('click',(e)=>{
+   
     p_g_1 =0;
     p_g_2 =0;
     p_t_1 = 0;
@@ -36,7 +37,8 @@ newGame.addEventListener('click',(e)=>{
 
  //  roll dice jouer1
 
- roll_dice1.addEventListener ('click', function(){
+ roll_dice1.addEventListener ('click', function(e){
+    
     var dice1 = Math.floor(Math.random() * 6 + 1);
     console.log(dice1)
         switch (dice1){
@@ -70,12 +72,14 @@ newGame.addEventListener('click',(e)=>{
                 points_temp1.textContent = p_t_1
             break
             }
+            
 })
 
 
 //  roll dice jouer2
 
-roll_dice2.addEventListener ('click', function(){
+roll_dice2.addEventListener ('click', function(e){
+   
     var dice2 = Math.floor(Math.random() * 6 + 1);
     console.log(dice2)
         switch (dice2){
@@ -116,6 +120,7 @@ roll_dice2.addEventListener ('click', function(){
 //  buttons pour joueur 1
 
  function changer_player1  (){
+    
     p_t_1 = 0
     points_temp1.textContent=0
     points_temp2.textContent=0
