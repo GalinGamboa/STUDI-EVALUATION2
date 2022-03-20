@@ -37,7 +37,7 @@ newGame.addEventListener('click',(e)=>{
 
  //  roll dice jouer1
 
- roll_dice1.addEventListener ('click', function(e){
+ roll_dice1.addEventListener ('click', function(){
     
     var dice1 = Math.floor(Math.random() * 6 + 1);
     console.log(dice1)
@@ -78,7 +78,7 @@ newGame.addEventListener('click',(e)=>{
 
 //  roll dice jouer2
 
-roll_dice2.addEventListener ('click', function(e){
+roll_dice2.addEventListener ('click', function(){
    
     var dice2 = Math.floor(Math.random() * 6 + 1);
     console.log(dice2)
