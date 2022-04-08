@@ -89,31 +89,38 @@ roll_dice2.addEventListener ('click', function(){
     
         switch (dice2){
             case 1:
-                document.querySelector('#dice_1').setAttribute('src', "images/dice1.jpg")
+                let dice_1 = document.querySelector('#dice_1')
+                dice_1.setAttribute('src', "images/dice1.jpg")
+                console.log(dice_1)
                 changer_player2()
             break
             case 2:
-                document.querySelector('#dice_1').setAttribute('src', "images/dice2.jpg")
+                let dice_2 = document.querySelector('#dice_1')
+                dice_2.setAttribute('src', "images/dice2.jpg")
                 p_t_2= p_t_2 + (dice2);
                 points_temp2.textContent = p_t_2 
             break
             case 3:
-                document.querySelector('#dice_1').setAttribute('src', "images/dice3.jpg")
+                let dice_3 = document.querySelector('#dice_1')
+                dice_3.setAttribute('src', "images/dice3.jpg")
                 p_t_2= p_t_2+(dice2);
                 points_temp2.textContent = p_t_2
             break
             case 4:
-                document.querySelector('#dice_1').setAttribute('src', "images/dice4.jpg")
+                let dice_4 = document.querySelector('#dice_1')
+                dice_4.setAttribute('src', "images/dice4.jpg")
                 p_t_2= p_t_2+(dice2);
                 points_temp2.textContent = p_t_2
             break
             case 5:
-                document.querySelector('#dice_1').setAttribute('src', "images/dice5.jpg")
+                let dice_5 = document.querySelector('#dice_1')
+                dice_5.setAttribute('src', "images/dice5.jpg")
                 p_t_2= p_t_2+(dice2);
                 points_temp2.textContent = p_t_2
             break
             case 6:
-                document.querySelector('#dice_1').setAttribute('src', "images/dice6.jpg")
+                let dice_6 = document.querySelector('#dice_1')
+                dice_6.setAttribute('src', "images/dice6.jpg")
                 p_t_2= p_t_2+(dice2);
                 points_temp2.textContent = p_t_2
             break
