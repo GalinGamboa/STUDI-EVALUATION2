@@ -92,7 +92,7 @@ roll_dice2.addEventListener ('click', function(){
                 let dice_1 = document.querySelector('#dice_1')
                 dice_1.setAttribute('src', "images/dice1.jpg")
                 console.log(dice_1)
-                changer_player2()
+                changer_player1()
             break
             case 2:
                 let dice_2 = document.querySelector('#dice_1')
