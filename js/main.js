@@ -41,31 +41,31 @@ newGame.addEventListener('click',(e)=>{
     console.log(dice1)
         switch (dice1){
             case 1:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice1.jpg")
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice1.jpg")
                 changer_player2()
             break
             case 2:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice2.jpg")
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice2.jpg")
                 p_t_1= p_t_1 + (dice1);
                 points_temp1.textContent = p_t_1 
             break
             case 3:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice3.jpg")
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice3.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 4:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice4.jpg")
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice4.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 5:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice5.jpg")
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice5.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 6:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice6.jpg")
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice6.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
@@ -82,33 +82,32 @@ roll_dice2.addEventListener ('click', function(){
     console.log(dice2)
         switch (dice2){
             case 1:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice1.jpg")
-                changer_player1()
-
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice1.jpg")
+                changer_player2()
             break
             case 2:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice2.jpg")
-                p_t_2= p_t_2+dice2;
-                points_temp2.textContent = p_t_2
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice2.jpg")
+                p_t_2= p_t_2 + (dice2);
+                points_temp2.textContent = p_t_2 
             break
             case 3:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice3.jpg")
-                p_t_2= p_t_2+dice2;
-            points_temp2.textContent = p_t_2
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice3.jpg")
+                p_t_2= p_t_2+(dice2);
+                points_temp2.textContent = p_t_2
             break
             case 4:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice4.jpg")
-                p_t_2= p_t_2+dice2;
-            points_temp2.textContent = p_t_2
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice4.jpg")
+                p_t_2= p_t_2+(dice2);
+                points_temp2.textContent = p_t_2
             break
             case 5:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice5.jpg")
-                p_t_2= p_t_2+dice2;
-            points_temp2.textContent = p_t_2
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice5.jpg")
+                p_t_2= p_t_2+(dice2);
+                points_temp2.textContent = p_t_2
             break
             case 6:
-                document.querySelector('.dice_1').setAttribute('src', "/images/dice6.jpg")
-                p_t_2= p_t_2+dice2;
+                document.querySelector('#dice_1').setAttribute('src', "/images/dice6.jpg")
+                p_t_2= p_t_2+(dice2);
                 points_temp2.textContent = p_t_2
             break
         }   
