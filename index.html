@@ -23,7 +23,7 @@
             <h1 class="title">Le jeu de dés</h1>
         </div>
         <div class="new_game" >
-            <button  id="new_game"   class="custom-btn btn-1"><img src="images/icons/plus.svg"alt=""><span>NEW GAME</span></button>
+            <button  id="new_game"   class="custom-btn btn-1"><img src="images/plus.svg"alt=""><span>NEW GAME</span></button>
         </div>
         <div class="conatiner_players">
             <div class=" container_player container_player1">
@@ -37,10 +37,10 @@
                     <h4>Points Temporal</h4>
                     <div class=" container_buttons buttons_player1">
                         <div >
-                            <button id="roll_dice1" class="custom-btn btn-1 roll_dice1"><img src="images/icons/change.svg"alt=""><span>ROLL DICE</span></button>
+                            <button id="roll_dice1" class="custom-btn btn-1 roll_dice1"><img src="images/change.svg"alt=""><span>ROLL DICE</span></button>
                         </div>
                         <div class="hold1" >
-                            <button id="hold1" class="custom-btn btn-1 hold1"><img src="images/icons/save.svg"alt=""><span>HOLD</span></button>
+                            <button id="hold1" class="custom-btn btn-1 hold1"><img src="images/save.svg"alt=""><span>HOLD</span></button>
                         </div>
                     </div>
                 </div>
@@ -57,10 +57,10 @@
                     <h4>Points Temporal</h4>
                     <div class="container_buttons buttons_player2">
                         <div >
-                            <button id="roll_dice2" class="custom-btn btn-1 roll_dice2"><img src="images/icons/change.svg"alt=""><span>ROLL DICE</span></button>
+                            <button id="roll_dice2" class="custom-btn btn-1 roll_dice2"><img src="images/change.svg"alt=""><span>ROLL DICE</span></button>
                         </div>
                         <div class="hold2" >
-                            <button id="hold2" class="custom-btn btn-1 hold2"><img src="images/icons/save.svg"alt=""><span>HOLD</span></button>
+                            <button id="hold2" class="custom-btn btn-1 hold2"><img src="images/save.svg"alt=""><span>HOLD</span></button>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
         </div>
 
         <div class="container_dice">
-            <img src="/images/img/dé1.jpg" class="dice dice_1" alt="">
+            <img src="/images/dé1.jpg" class="dice dice_1" alt="">
         </div>
     </div>
     
@@ -124,31 +124,31 @@ newGame.addEventListener('click',(e)=>{
     console.log(dice1)
         switch (dice1){
             case 1:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé1.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé1.jpg")
                 changer_player2()
             break
             case 2:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé2.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé2.jpg")
                 p_t_1= p_t_1 + (dice1);
                 points_temp1.textContent = p_t_1 
             break
             case 3:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé3.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé3.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 4:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé4.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé4.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 5:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé5.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé5.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 6:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé6.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé6.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
@@ -165,32 +165,32 @@ roll_dice2.addEventListener ('click', function(){
     console.log(dice2)
         switch (dice2){
             case 1:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé1.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé1.jpg")
                 changer_player1()
 
             break
             case 2:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé2.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé2.jpg")
                 p_t_2= p_t_2+dice2;
                 points_temp2.textContent = p_t_2
             break
             case 3:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé3.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé3.jpg")
                 p_t_2= p_t_2+dice2;
             points_temp2.textContent = p_t_2
             break
             case 4:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé4.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé4.jpg")
                 p_t_2= p_t_2+dice2;
             points_temp2.textContent = p_t_2
             break
             case 5:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé5.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé5.jpg")
                 p_t_2= p_t_2+dice2;
             points_temp2.textContent = p_t_2
             break
             case 6:
-                document.querySelector('.dice_1').setAttribute('src', "/images/img/dé6.jpg")
+                document.querySelector('.dice_1').setAttribute('src', "/images/dé6.jpg")
                 p_t_2= p_t_2+dice2;
                 points_temp2.textContent = p_t_2
             break
