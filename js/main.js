@@ -42,37 +42,37 @@ newGame.addEventListener('click',(e)=>{
         switch (dice1){
             case 1:
                 let dice_1 = document.querySelector('#dice_1')
-                dice_1.setAttribute('src', "/images/dice1.jpg")
+                dice_1.setAttribute('src', "images/dice1.jpg")
                 console.log(dice_1)
                 changer_player2()
             break
             case 2:
                 let dice_2 = document.querySelector('#dice_1')
-                dice_2.setAttribute('src', "/images/dice2.jpg")
+                dice_2.setAttribute('src', "images/dice2.jpg")
                 p_t_1= p_t_1 + (dice1);
                 points_temp1.textContent = p_t_1 
             break
             case 3:
                 let dice_3 = document.querySelector('#dice_1')
-                dice_3.setAttribute('src', "/images/dice3.jpg")
+                dice_3.setAttribute('src', "images/dice3.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 4:
                 let dice_4 = document.querySelector('#dice_1')
-                dice_4.setAttribute('src', "/images/dice4.jpg")
+                dice_4.setAttribute('src', "images/dice4.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 5:
                 let dice_5 = document.querySelector('#dice_1')
-                dice_5.setAttribute('src', "/images/dice5.jpg")
+                dice_5.setAttribute('src', "images/dice5.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
             case 6:
                 let dice_6 = document.querySelector('#dice_1')
-                dice_6.setAttribute('src', "/images/dice6.jpg")
+                dice_6.setAttribute('src', "images/dice6.jpg")
                 p_t_1= p_t_1+(dice1);
                 points_temp1.textContent = p_t_1
             break
